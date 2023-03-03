@@ -5,7 +5,7 @@ cmake_minimum_required (VERSION 2.8)
 
 project(PA4)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -Wall")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -O0 -Wall")
 
 # make an automatic library
 add_library(pa_library ${PROJECT_NAME}.cpp ${PROJECT_NAME}.h)
